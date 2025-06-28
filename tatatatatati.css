@@ -15,11 +15,24 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-h1 {
-  text-align: center;
+.navbar {
+  background: var(--card);
+  padding: 24px 32px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.nav-title {
   color: var(--accent);
-  font-size: 2em;
-  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.nav-title:hover {
+  opacity: 0.8;
 }
 
 .container {
@@ -50,6 +63,11 @@ li.file:hover {
 
 span.icon {
   margin-right: 10px;
+}
+
+.folder-name {
+  cursor: pointer;
+  font-weight: 600;
 }
 
 a {
