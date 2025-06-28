@@ -99,7 +99,6 @@ button.copy-btn:hover {
   color: var(--bg);
 }
 
-<style>
 .copy-notice {
   position: fixed;
   bottom: 20px;
@@ -112,5 +111,4 @@ button.copy-btn:hover {
   font-weight: 600;
   z-index: 9999;
 }
-</style>
 
